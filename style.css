@@ -133,6 +133,11 @@ header .headtxt a img{
   margin-top: 3.5rem;
   width: 5.8rem;
   height: 10.5rem;
+  transition: 0.5s ease-in-out;
+}
+
+header .headtxt a img:hover {
+  transform: scale(1.08);
 }
 
 main {
@@ -151,6 +156,12 @@ main {
   border-radius: 2rem;
 
   padding: 2.6rem;
+
+  transition: 0.5s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .card img {
